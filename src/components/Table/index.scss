@@ -1,0 +1,14 @@
+.wrapper-table {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+
+	thead {
+		background-color: rgba(15, 120, 192, 0.8);
+		th {
+			min-width: 120px;
+			max-width: 180px;
+			color: white;
+		}
+	}
+}

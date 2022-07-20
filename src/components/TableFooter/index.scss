@@ -1,0 +1,11 @@
+.table-footer {
+	display: flex;
+	justify-content: center;
+
+	& &__pagination {
+		.page-item.active .page-link {
+			background-color: #0559ee;
+			border-color: #0559ee;
+		}
+	}
+}
